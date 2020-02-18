@@ -1,0 +1,214 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #00556F;
+    font-family: Helvetica Neue,Arial,sans-serif; 
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 6rem;
+    text-shadow: 0 1.5px black;
+    color: #FFFFFF;
+    font-weight: 900;
+  
+}
+
+h3 {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 3rem;
+    text-shadow: 0 0.3px black;
+    color: #FFFFFF;
+    font-weight: 900;
+    padding: 0 200px;
+}
+
+/* HEADER */
+
+header {
+    padding: 10px 200px 10px 200px;
+    position: relative;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.header-contact {
+    text-align: right;
+    font-size: 0.90em;
+}
+
+/* TOP PART */
+
+.top-part {
+    background-image: url(images/background-img.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo {
+    text-align: center;
+    padding-top: 150px;
+    
+}
+
+.sub-titulo {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+/* BOTONES */
+
+.btn-cta {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.btn-xlarge {
+    padding: 18px 28px;
+    font-size: 22px; 
+    line-height: normal;
+    -webkit-border-radius: 40px;
+       -moz-border-radius: 40px;
+            border-radius: 40px;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding: 50px 400px;
+    box-shadow: 0px 0px 10px 3px #00556F;
+    text-align: center;
+}
+
+hr {
+    background: #FFFFFF;
+}
+
+/********************************************************* RESPONSIVE ******************************************************************/
+
+@media (max-width: 1300px) {
+    .contact-form {
+        padding: 50px 150px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    header {
+        padding: 10px 100px 10px 100px;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .contact-form {
+        padding: 50px 200px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 10px 50px 10px 50px;
+    }
+
+    .header-contact {
+        text-align: center;
+        font-size: 0.75em;
+    }
+
+    h1 {
+        font-size: 4rem;
+
+    }
+
+    h3 {
+        font-size: 2rem;
+        padding: 0 100px;
+    }
+
+    .titulo {
+        padding-top: 50px;
+}
+
+    .contact-form {
+    padding: 50px 100px;
+}
+
+    .footer-col {
+        padding: 1% 100px !important;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header-contact {
+        text-align: center;
+        font-size: 0.75em;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        padding: 0 50px;
+    }
+    .contact-form {
+        padding: 50px 50px;
+    }
+
+    .btn-xlarge {
+        padding: 10px 15px;
+        font-size: 15px; 
+
+}
+
+.footer-col {
+    padding: 1% 50px !important;
+}
+
+}
+/************************************************************* FOOTER SECTION ********************************************************/
+
+.footer-div {
+    margin: 0px;
+}
+
+.footer-col {
+    padding: 1% 10% 1% 10%;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+}
+
+.logo-footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+p {
+    font-size: smaller;
+}
